@@ -1,0 +1,65 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   height: 100%;
+   margin: 75px;
+
+}
+.box{
+     border-radius: 50px;
+    height: 570px;
+     text-align: center;
+     margin-top: 10px;
+     position: relative; 
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    width: 370px;
+    margin: auto;
+}
+h2{
+    color:gray;
+}
+.first{
+    height: 35px;
+    width: 35px;
+    background-color:pink;
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.second{
+    height: 35px;
+    width: 35px;
+    background-color:gray;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.third{
+    height: 35px;
+    width: 35px;
+    background-color:green;
+    border-radius: 50%;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+     margin-right: 15%;
+    
+}
+p{
+    font-family: 'Overpass', sans-serif;
+}
+.amount{
+    margin-left: 20px;
+}
+button{
+   color: brown;
+   border-color: brown;
+    border-radius: 20px;
+    line-height: 3;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
