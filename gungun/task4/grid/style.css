@@ -1,0 +1,45 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,130px);
+    grid-template-rows: repeat(3,150px);
+}
+div:first-child{
+    grid-row: span 2;
+}
+.container>div{
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px;
+   margin: 8px;
+}
+#one{
+    background-color:  hsl(246, 100%, 25%);
+}
+#two{
+    background-color: darkcyan;
+}
+#three{
+    grid-row: span 3;
+    background-color: red;
+}
+#four{
+    background-color: forestgreen;
+}
+#five{
+    grid-column: span 2;
+    background-color: orangered;
+}
+@media only screen and (max-width:768px){
+ .container{
+    display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.navbar{
+    /* background-color: white; */
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.186);
+   align-items:flex-end;
+}
+a{
+    text-decoration: none;
+    padding: 12px 10px;
+}
+a:hover{
+    color: blue;
+}
+.content{
+    display: flex; 
+}
+.content>div{
+    margin: 7px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgba(222, 222, 201, 0.71); 
+}
+@media  only screen and (max-width:628px){
+    .navbar{
+        display: inline-block; 
+        width: 25%;
+        height: 100%;
+    }
+    .content{
+        display: inline;
+    }
+} 
